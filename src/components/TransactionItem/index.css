@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.list-style {
+  list-style-type: none;
+  font-size: 12px;
+  color: #334155;
+  display: flex;
+}
+
+.item-container {
+}
+
+.delete-img {
+  width: 20%;
+}

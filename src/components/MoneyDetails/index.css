@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.img-balance {
+  width: 25%;
+  margin-right: 15px;
+}
+
+.money-details-container {
+  display: flex;
+  width: 55%;
+}
+
+.your-balance-container {
+  border-style: solid;
+  border-color: #84cc16;
+  background-color: #ecfccb;
+  border-width: 1px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 25px;
+}
+
+.your-balance-text {
+  color: #475569;
+}
+
+.your-income-container {
+  border-style: solid;
+  border-color: #06b6d4;
+  background-color: #cffafe;
+  border-width: 1px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 25px;
+}
+
+.your-expense-container {
+  border-style: solid;
+  border-color: #7c3aed;
+  background-color: #cbd5e1;
+  border-width: 1px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 25px;
+}

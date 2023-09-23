@@ -1,0 +1,133 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-width: 100vw;
+}
+
+.name-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 25vh;
+  background-size: cover;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.app-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+}
+
+.card-para {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+}
+
+.span {
+  color: #0b69ff;
+}
+
+.input-title-contaniner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-box-style {
+  padding: 10px;
+  margin-top: 5px;
+  outline: none;
+  border-color: #475569;
+}
+
+.label-style {
+  color: #7e858e;
+  font-weight: 500;
+}
+
+.option-style {
+  background-color: rgb(177, 76, 76);
+}
+
+.add-button {
+  background-color: #0b69ff;
+  padding: 15px;
+  border-width: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+}
+
+.form-style {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a9adb3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+
+  margin-right: 30px;
+}
+
+.add-transaction-style {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 15px;
+}
+
+.history-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a9adb3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+
+  margin-left: 30px;
+}
+
+.bottm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.each-type-container {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a9adb3;
+  padding: 10px;
+
+  padding-right: 50px;
+  justify-content: flex-start;
+}
+
+.history-heading {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.details {
+  color: #1e293b;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 15px;
+}
